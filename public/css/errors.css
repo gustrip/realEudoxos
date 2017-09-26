@@ -1,0 +1,17 @@
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+
+.title-sub {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

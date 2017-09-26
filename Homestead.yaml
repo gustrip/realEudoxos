@@ -1,0 +1,20 @@
+ip: 192.168.27.27
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/eudoxos.pub
+keys:
+    - ~/.ssh/eudoxos
+folders:
+    -
+        
+        map: c:\Users\GK\Desktop\realEudoxos\eudoksos
+        to: /home/vagrant/Code
+sites:
+    -
+        map: homestead.app
+        to: /home/vagrant/Code/public
+databases:
+    - homestead
+name: realeudoxos
+hostname: realeudoxos

@@ -1,0 +1,26 @@
+<?php
+
+namespace realEudoxos\Http\Controllers\Student;
+
+use Illuminate\Http\Request;
+use realEudoxos\Http\Controllers\Controller;
+
+use Illuminate\Support\Facades\Password;
+//Trait
+use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
+
+class StudentForgotPasswordController extends Controller
+{
+    //Sends Password Reset emails
+    use SendsPasswordResetEmails;
+
+    //Shows form to request password reset
+    public function showLinkRequestForm()
+    {
+        return view('auth.student_passwords.email');
+    }
+    public function broker()
+    {
+         return Password::broker('students');
+    }
+}

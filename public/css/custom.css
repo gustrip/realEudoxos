@@ -1,0 +1,180 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logged_in{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logged_in:hover{
+    color: white;
+}
+
+.logout_link{
+    color: #dcd8a1;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.logout_link:hover{
+    color: #FFC6CF;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.products-grid a {
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product_name:hover{
+    color: #b02a46;
+}
+
+.image-front{
+    width:350px;
+    height: 369px;
+}
+
+.top_padding{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.dress-name p {
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dress-name h3 {
+    float: left;
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product_image .img-responsive {
+    height: 250px;
+}
+
+ul.product-list li a {
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sidebar-nav li {
+    list-style-type: none;
+    text-align:center;
+    padding: 8px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+#menu li a {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.product-listy h2 {
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+li.subcategory_link a {
+    color:#d2a1a1!important;
+}
+
+.sidebar-nav {
+    background: #353535;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart-header-custom{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart-price, .cart-qty{
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart-title{
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top_price_custom{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.item_add, .item_price{
+    font-family: 'Roboto', sans-serif;
+}
+
+.item_add:hover{
+    color: green!important;
+}
+
+li.odetails {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.cart-header.details {
+    background: #efefef;
+    border-radius: 4px;
+}
+
+p.otitle {
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    padding: 0 15px;
+    color: #816263;
+}
+
+.form-horizontal{
+    font-family: 'Roboto', sans-serif;
+}
+
+.panel.panel-default.kos {
+    margin: 20px;
+}
+
+.panel-heading.kos {
+    background-color: #4f728a;
+    color:white;
+}
+
+.header-top-strip {
+    padding: 8px 0 14px 0;
+    background-color: #3e3d3d;
+}
+
+a.simpleCart_empty {
+    font-size: 14px;
+    color: #dcd8a1;
+}
+.not-active {
+ pointer-events: none;
+ cursor: default;
+}
+

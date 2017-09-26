@@ -1,0 +1,12 @@
+[27-Apr-2017 10:00:43 UTC] PHP Fatal error:  Cannot declare class realEudoxos\Http\Controllers\AdminController, because the name is already in use in C:\Users\GK\Desktop\realEudoxos\app\Http\Controllers\StudentController.php on line 28
+[27-Apr-2017 10:01:45 UTC] PHP Fatal error:  Cannot declare class realEudoxos\Http\Controllers\AdminController, because the name is already in use in C:\Users\GK\Desktop\realEudoxos\app\Http\Controllers\StudentController.php on line 28
+[03-May-2017 12:04:59 UTC] PHP Fatal error:  Class 'Seeder' not found in C:\Users\GK\Desktop\realEudoxos\database\seeds\AuthorsTableSeeder.php on line 2
+[09-May-2017 17:06:21 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php:314
+Stack trace:
+#0 C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', 'C:\\Users\\GK\\Des...', 314, Array)
+#1 C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): require()
+#2 C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php(270): Illuminate\Routing\Router->loadRoutes(Array)
+#3 C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, Array)
+#4 C:\Users\GK\Desktop\realEudoxos\routes\web.php(29): Illuminate\Routing\RouteRegistrar->group(Array, Object(Closure))
+#5 C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): require in C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[09-May-2017 17:06:21 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required 'Array' (include_path='.;C:\php\pear') in C:\Users\GK\Desktop\realEudoxos\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
