@@ -8,7 +8,7 @@ keys:
 folders:
     -
         
-        map: c:\Users\GK\Desktop\realEudoxos\eudoksos
+        map: c:\Users\GK\Documents\realEudoxos\laravel/project
         to: /home/vagrant/Code
 sites:
     -
