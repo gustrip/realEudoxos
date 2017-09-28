@@ -136,7 +136,7 @@ class UsersController extends Controller
             'email' => 'required|string|email|max:255|unique:students',
             'password' => 'required|string|min:6',
         ]);
-        $student=Student::UpdateOrCreate(['email'=>$request->email],['name'=>$request->name,'lastName'=>$request->lastName,'points'=>0,'password'=>Hash::make($request->password),['verified'=>1]]);
+        $student=Student::UpdateOrCreate(['email'=>$request->email],['name'=>$request->name,'lastName'=>$request->lastName,'points'=>0,'password'=>Hash::make($request->password),'verified'=>1]);
 
         //get infos from api and store them
         return redirect()->route('users.index');

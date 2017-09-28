@@ -12,7 +12,7 @@ class StudentEmailVerification extends Mailable
     use Queueable, SerializesModels;
 
     protected $user;
-
+    public $tries = 10;
 
     /**
      * Create a new message instance.

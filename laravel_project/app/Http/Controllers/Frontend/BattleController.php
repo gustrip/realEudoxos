@@ -32,7 +32,8 @@ class BattleController extends Controller
                 if($winner){
                     return view('frontend.battle.battle')->with('winner',$winner);
                 }else{
-                    return redirect()->route('battle')->with('status','Η Μάχη δεν έχει ξεκινήσει ακόμα');
+                    $uni=null;
+                    return view('frontend.battle.battle',compact('uni','limit','winner'));
                 }                
             }      
         }else{

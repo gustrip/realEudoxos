@@ -84,7 +84,7 @@ class FrontUserController extends Controller
             return view('auth.mail_verification.verification');
         }
         catch(\Exception $e)
-        {   echo($e);
+        {   //echo($e);
             DB::rollback(); 
             return redirect()->back()->with('status', 'Δεν έγινε εγγραφή!');
         }

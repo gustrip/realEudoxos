@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Password;
 
 class StudentResetPasswordController extends Controller
 {
-   protected $redirectTo = '/student';
+   protected $redirectTo = '/';
 
     use ResetsPasswords;
 

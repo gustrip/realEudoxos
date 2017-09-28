@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="logo">
-                    <h1><a href="{{route('homepage')}}"><span>R</span>ealEudoksos</a></h1>
+                    <h1><a href="{{route('homepage')}}"><span>R</span>ealEudoxos</a></h1>
                 </div>
             </div>
             <!--/.navbar-header-->

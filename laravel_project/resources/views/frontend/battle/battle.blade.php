@@ -15,6 +15,16 @@
 	</div>
   	
 	@else
+		@if(!$uni)
+			<div class="container">
+				<h3 class="text-center">Η Μάχη δεν ξεκίνησε ακόμα!!!!</h3>
+			</div>
+			<div class="container">
+				<p class="center text-center" style="font-size:15px;font-family: 'Roboto',sans-serif;">
+			Μπορεί όμως τις επόμενες μέρες να ξεκινήσει γιαυτό μην σταματάς να τσεκάρεις 
+				</p>" 
+			</p>
+		@else
 		@foreach($uni as $u)
 		<span class="label label-default">{{$u->name}}</span>
 			<div class="progress">
@@ -23,7 +33,8 @@
 			{{round(100*($u->total_points*$u->weight)/$limit->limit,2)}}%
 			</div>
 		</div>
-	@endforeach
+		@endforeach
+		@endif
 
 	@endif
 
